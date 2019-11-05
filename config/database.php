@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', env('DB_DRIVER', 'sqlite')),
+    'default' => env('DB_CONNECTION', env('DB_DRIVER', 'pgsql')),
 
     /*
     |--------------------------------------------------------------------------
