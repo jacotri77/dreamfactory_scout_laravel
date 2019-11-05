@@ -1,4 +1,5 @@
 <?php
+#$DATABASE_URL=parse_url(‘postgres://ninzmlzcwkllvp:45be484ce9695f3b7f2fb072c13a571db7623eb7e90efb889e6db186888488b6@ec2-54-225-242-183.compute-1.amazonaws.com:5432/db1dpbg18e6046’)
 
 return [
 
@@ -55,15 +56,13 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => env('DB_HOST', '127.0.0.1'),
-            'port'     => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'dreamfactory'),
-            'username' => env('DB_USERNAME', ''),
-            'password' => env('DB_PASSWORD', ''),
-            'charset'  => env('DB_CHARSET', 'utf8'),
-            'prefix'   => env('DB_PREFIX', ''),
+            'host'     => parse_url(getenv("DATABASE_URL"))["host"],
+            'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),
+            'username' => parse_url(getenv("DATABASE_URL"))["user"],
+            'password' => parse_url(getenv("DATABASE_URL"))["pass"],
+            'charset'  => 'utf8',
+            'prefix'   => '',
             'schema'   => 'public',
-            'sslmode'  => 'prefer',
         ],
 
         'sqlsrv' => [
