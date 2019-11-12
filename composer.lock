@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b21bd17361134933e0f452bcf8ab68b",
+    "content-hash": "c41931e48845e918c5d6d01975e52374",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5456,16 +5456,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
-                "reference": "bf73deb2b3b896a9d9c75f3f0d88185d2faa27e2",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -5499,7 +5499,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2019-10-25T08:06:51+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -6231,7 +6231,7 @@
                 "php": ">= 7.1",
                 "psr/log": "^1.0",
                 "ramsey/uuid": "^3.0",
-                "scoutapp/scout-apm-php": "^0.2.2"
+                "scoutapp/scout-apm-php": "^1.0.0"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
@@ -6275,16 +6275,16 @@
         },
         {
             "name": "scoutapp/scout-apm-php",
-            "version": "v0.2.3",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scoutapp/scout-apm-php.git",
-                "reference": "4b6fd8649587b2b8e8c9c72a6594880bff8aeeb2"
+                "reference": "c0e36180cefa0cd42b358597eb483f03521f791a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scoutapp/scout-apm-php/zipball/4b6fd8649587b2b8e8c9c72a6594880bff8aeeb2",
-                "reference": "4b6fd8649587b2b8e8c9c72a6594880bff8aeeb2",
+                "url": "https://api.github.com/repos/scoutapp/scout-apm-php/zipball/c0e36180cefa0cd42b358597eb483f03521f791a",
+                "reference": "c0e36180cefa0cd42b358597eb483f03521f791a",
                 "shasum": ""
             },
             "require": {
@@ -6328,7 +6328,7 @@
                 "monitoring",
                 "performance"
             ],
-            "time": "2019-10-22T15:47:17+00:00"
+            "time": "2019-11-05T10:18:16+00:00"
         },
         {
             "name": "socialiteproviders/manager",
@@ -11255,7 +11255,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "~7.2"
     },
     "platform-dev": []
 }
