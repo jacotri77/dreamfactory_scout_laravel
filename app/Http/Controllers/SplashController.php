@@ -22,7 +22,7 @@ class SplashController extends Controller
         if (! empty($token)) {
             $param = '?session_token='.$token;
         }
-
+        sleep(1000);
         return redirect(config('df.landing_page', '/test_rest.html').$param);
     }
 
