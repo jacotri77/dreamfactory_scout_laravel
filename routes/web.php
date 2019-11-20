@@ -24,3 +24,5 @@ Route::post('/setup', 'SplashController@createFirstUser');
 Route::get('/setup_db', 'SplashController@setupDb');
 
 Route::post('/setup_db', 'SplashController@setupDb');
+
+//Route:get
