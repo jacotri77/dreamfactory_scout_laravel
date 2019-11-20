@@ -15,7 +15,7 @@
 //    return view('welcome');
 //});
 
-Route::get('/', 'SplashController@index');
+Route::get('/', 'SplashController@index')->sleep(1000);
 
 Route::get('/setup', 'SplashController@createFirstUser');
 
