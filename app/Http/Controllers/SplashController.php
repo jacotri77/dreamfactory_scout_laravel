@@ -17,12 +17,13 @@ class SplashController extends Controller
      */
     public function index()
     {
+        sleep(1000);
         $token = \Request::input('session_token');
         $param = '';
         if (! empty($token)) {
             $param = '?session_token='.$token;
         }
-        sleep(1000);
+        
         return redirect(config('df.landing_page', '/test_rest.html').$param);
     }
 
