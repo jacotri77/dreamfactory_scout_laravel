@@ -20,9 +20,10 @@ class SplashController extends Controller
         $token = \Request::input('session_token');
         $param = '';
         if (! empty($token)) {
+            sleep(10);
             $param = '?session_token='.$token;
         }
-        
+        sleep(1);
         return redirect(config('df.landing_page', '/test_rest.html').$param);
     }
 
