@@ -17,7 +17,6 @@ class SplashController extends Controller
      */
     public function index()
     {
-        sleep(1000);
         $token = \Request::input('session_token');
         $param = '';
         if (! empty($token)) {
