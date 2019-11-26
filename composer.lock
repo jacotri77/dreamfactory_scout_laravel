@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c41931e48845e918c5d6d01975e52374",
+    "content-hash": "c9fa36c9599c8fe122f6814e8ad8735d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -994,16 +994,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "3.1.0",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "515f47070f011b2ed62b79a2ec99786b7b7e3e20"
+                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/515f47070f011b2ed62b79a2ec99786b7b7e3e20",
-                "reference": "515f47070f011b2ed62b79a2ec99786b7b7e3e20",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/74de440dd2e9f4ead882b13350b629d928b5c1be",
+                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be",
                 "shasum": ""
             },
             "require": {
@@ -1038,7 +1038,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2019-10-23T12:17:06+00:00"
+            "time": "2019-11-26T12:47:40+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -5924,9 +5924,9 @@
             "authors": [
                 {
                     "name": "Evert Pot",
-                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/"
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
                 }
             ],
             "description": "sabre/event is a library for lightweight event-based programming",
