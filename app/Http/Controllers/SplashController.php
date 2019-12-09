@@ -20,10 +20,10 @@ class SplashController extends Controller
         $token = \Request::input('session_token');
         $param = '';
         if (! empty($token)) {
-            sleep(10);
+            sleep(100);
             $param = '?session_token='.$token;
         }
-        sleep(1);
+        sleep(100);
         return redirect(config('df.landing_page', '/test_rest.html').$param);
     }
 
@@ -76,7 +76,7 @@ class SplashController extends Controller
             return redirect()->to('/');
         }
     }
-
+    /**adding a sleep in order to get the controller time */
     /**
      * Sets up db by running migration and seeder.
      *
