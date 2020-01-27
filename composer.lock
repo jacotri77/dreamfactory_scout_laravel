@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "25a5ca0ed57ed829e23e51e9a60305fd",
+    "content-hash": "7d2358d59d65b0af16477313dac05c64",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -147,12 +147,12 @@
             "version": "v0.11.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/barryvdh/laravel-cors.git",
+                "url": "https://github.com/fruitcake/laravel-cors.git",
                 "reference": "03492f1a3bc74a05de23f93b94ac7cc5c173eec9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-cors/zipball/03492f1a3bc74a05de23f93b94ac7cc5c173eec9",
+                "url": "https://api.github.com/repos/fruitcake/laravel-cors/zipball/03492f1a3bc74a05de23f93b94ac7cc5c173eec9",
                 "reference": "03492f1a3bc74a05de23f93b94ac7cc5c173eec9",
                 "shasum": ""
             },
@@ -1002,16 +1002,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "3.1.2",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be"
+                "reference": "8451a69dfda12d0ee261c14fc4f0e649f399a477"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/74de440dd2e9f4ead882b13350b629d928b5c1be",
-                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/8451a69dfda12d0ee261c14fc4f0e649f399a477",
+                "reference": "8451a69dfda12d0ee261c14fc4f0e649f399a477",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1046,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2019-11-26T12:47:40+00:00"
+            "time": "2020-01-24T11:03:58+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -5945,9 +5945,9 @@
             "authors": [
                 {
                     "name": "Evert Pot",
-                    "role": "Developer",
                     "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/"
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
                 }
             ],
             "description": "sabre/event is a library for lightweight event-based programming",
