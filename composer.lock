@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35d143cc52eed3c1070271c2627ca571",
+    "content-hash": "fbc6f0cdd742897c12de8fc04b63a864",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1002,16 +1002,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "3.1.2",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be"
+                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/74de440dd2e9f4ead882b13350b629d928b5c1be",
-                "reference": "74de440dd2e9f4ead882b13350b629d928b5c1be",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
+                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1046,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2019-11-26T12:47:40+00:00"
+            "time": "2020-01-29T15:38:18+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
