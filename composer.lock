@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbc6f0cdd742897c12de8fc04b63a864",
+    "content-hash": "39017c966c17b7416d1fdfa72fb86566",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1002,16 +1002,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "4.0.1",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f"
+                "reference": "31ab51ddbf94a420c083e23d5b670114bf515276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/31ab51ddbf94a420c083e23d5b670114bf515276",
+                "reference": "31ab51ddbf94a420c083e23d5b670114bf515276",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1046,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2020-01-29T15:38:18+00:00"
+            "time": "2020-04-10T11:29:37+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -3187,6 +3187,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -3233,6 +3234,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
