@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbc6f0cdd742897c12de8fc04b63a864",
+    "content-hash": "d5ae27eabbcb5402bf4be97c2c0f83d5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1002,16 +1002,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "4.0.1",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f"
+                "reference": "41beba4272906ddd7a6349360aa0371d96a1b1dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/41beba4272906ddd7a6349360aa0371d96a1b1dc",
+                "reference": "41beba4272906ddd7a6349360aa0371d96a1b1dc",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1046,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2020-01-29T15:38:18+00:00"
+            "time": "2020-04-20T14:30:23+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -1841,16 +1841,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-firebird.git",
-                "reference": "2432badd9669c253a02c1c0d269e0e6802231a26"
+                "reference": "e86680f74b17d7c1bd73dbecf588214d14835469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/2432badd9669c253a02c1c0d269e0e6802231a26",
-                "reference": "2432badd9669c253a02c1c0d269e0e6802231a26",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/e86680f74b17d7c1bd73dbecf588214d14835469",
+                "reference": "e86680f74b17d7c1bd73dbecf588214d14835469",
                 "shasum": ""
             },
             "require": {
-                "dreamfactory/df-sqldb": "~0.17.0"
+                "dreamfactory/df-sqldb": "~0.17.1"
             },
             "type": "library",
             "extra": {
@@ -1892,7 +1892,7 @@
                 "pdo_interbase",
                 "sql"
             ],
-            "time": "2019-10-23T13:58:32+00:00"
+            "time": "2020-01-21T09:41:26+00:00"
         },
         {
             "name": "dreamfactory/df-git",
@@ -3187,6 +3187,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -3233,6 +3234,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
