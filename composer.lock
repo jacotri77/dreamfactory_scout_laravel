@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbc6f0cdd742897c12de8fc04b63a864",
+    "content-hash": "f96a2cf40813efee4d9edbc708e5d5eb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -209,12 +209,12 @@
             "version": "v2.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/BitbucketAPI/Client.git",
+                "url": "https://github.com/BitbucketPHP/Client.git",
                 "reference": "a25c5277ca45ca6389ee29dad5d1720c12cf9fdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BitbucketAPI/Client/zipball/a25c5277ca45ca6389ee29dad5d1720c12cf9fdf",
+                "url": "https://api.github.com/repos/BitbucketPHP/Client/zipball/a25c5277ca45ca6389ee29dad5d1720c12cf9fdf",
                 "reference": "a25c5277ca45ca6389ee29dad5d1720c12cf9fdf",
                 "shasum": ""
             },
@@ -264,6 +264,16 @@
                 "Graham Campbell",
                 "GrahamCampbell",
                 "bitbucket"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/bitbucket/client",
+                    "type": "tidelift"
+                }
             ],
             "time": "2019-11-03T20:49:43+00:00"
         },
@@ -1002,16 +1012,16 @@
         },
         {
             "name": "dreamfactory/df-admin-app",
-            "version": "4.0.1",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-admin-app.git",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f"
+                "reference": "c9bf57f8de464fa7b44791c3ba7472d8ed4c7a18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
-                "reference": "9bf323a3a9f89eb9ffd83d8f0601fdce8a66292f",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-admin-app/zipball/c9bf57f8de464fa7b44791c3ba7472d8ed4c7a18",
+                "reference": "c9bf57f8de464fa7b44791c3ba7472d8ed4c7a18",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1056,7 @@
                 "remote web services",
                 "rest"
             ],
-            "time": "2020-01-29T15:38:18+00:00"
+            "time": "2020-09-29T17:48:04+00:00"
         },
         {
             "name": "dreamfactory/df-api-docs-ui",
@@ -1841,16 +1851,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-firebird.git",
-                "reference": "2432badd9669c253a02c1c0d269e0e6802231a26"
+                "reference": "e86680f74b17d7c1bd73dbecf588214d14835469"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/2432badd9669c253a02c1c0d269e0e6802231a26",
-                "reference": "2432badd9669c253a02c1c0d269e0e6802231a26",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/e86680f74b17d7c1bd73dbecf588214d14835469",
+                "reference": "e86680f74b17d7c1bd73dbecf588214d14835469",
                 "shasum": ""
             },
             "require": {
-                "dreamfactory/df-sqldb": "~0.17.0"
+                "dreamfactory/df-sqldb": "~0.17.1"
             },
             "type": "library",
             "extra": {
@@ -1892,7 +1902,7 @@
                 "pdo_interbase",
                 "sql"
             ],
-            "time": "2019-10-23T13:58:32+00:00"
+            "time": "2020-01-21T09:41:26+00:00"
         },
         {
             "name": "dreamfactory/df-git",
@@ -3187,6 +3197,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -3233,6 +3244,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -3923,12 +3935,12 @@
             "version": "9.14.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/m4tthumphrey/php-gitlab-api.git",
+                "url": "https://github.com/GitLabPHP/Client.git",
                 "reference": "3fb3a86c63579774425488e095dc06bd4355fe58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/m4tthumphrey/php-gitlab-api/zipball/3fb3a86c63579774425488e095dc06bd4355fe58",
+                "url": "https://api.github.com/repos/GitLabPHP/Client/zipball/3fb3a86c63579774425488e095dc06bd4355fe58",
                 "reference": "3fb3a86c63579774425488e095dc06bd4355fe58",
                 "shasum": ""
             },
@@ -3983,6 +3995,16 @@
             "keywords": [
                 "api",
                 "gitlab"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/m1guelpf",
+                    "type": "github"
+                }
             ],
             "time": "2019-11-14T08:09:52+00:00"
         },
@@ -5228,12 +5250,12 @@
             "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
@@ -5270,6 +5292,16 @@
                 "nosql",
                 "predis",
                 "redis"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tillkruss",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tillkruss",
+                    "type": "github"
+                }
             ],
             "time": "2016-06-16T16:22:20+00:00"
         },
@@ -10377,6 +10409,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
@@ -11336,5 +11369,6 @@
     "platform": {
         "php": "~7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
